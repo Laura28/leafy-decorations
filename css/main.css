@@ -1,11 +1,11 @@
 html {
-  font-family: "Lora", serif;
+  font-family: Lora, serif;
   color: #fff;
 }
 
 .masthead {
   background-color: #588477;
-  background-image: url("../prod/leaf-bg.svg");
+  background-image: url("../images/leaf-bg.svg");
   background-size: 64px;
   border-top: 3px solid #2d5a4d;
 }
@@ -27,7 +27,7 @@ html {
 }
 
 .nav a:hover {
-  background-image: url("../prod/leaf-icon.svg");
+  background-image: url("../images/leaf-icon.svg");
   background-repeat: no-repeat;
   background-size: 4em;
   background-position: .75em center;
@@ -36,12 +36,16 @@ html {
 }
 
 .banner {
-  background-image: url("../assets/banner.jpg");
+  background-image: url("../images/banner.jpg");
   border-top: 3px solid #2d5a4d;
 }
 
 .banner-content {
-
+  background-image: url("../images/two-leaves.svg");
+  background-repeat: no-repeat;
+  background-size: 5em;
+  background-position: center left;
+  padding-top: 25em;
 }
 
 @media only screen and (min-width: 60em) {
